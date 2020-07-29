@@ -4,12 +4,12 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', 'fnx-api.9fp5u.azure.mongodb.net'),
+        host: env('DATABASE_HOST', 'your host'),
         srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
-        database: env('DATABASE_NAME', 'finnexus-cms-strapi'),
-        username: env('DATABASE_USERNAME', 'noah'),
-        password: env('DATABASE_PASSWORD', 'bean1987'),
+        database: env('DATABASE_NAME', 'your db name'),
+        username: env('DATABASE_USERNAME', 'your username'),
+        password: env('DATABASE_PASSWORD', 'your password'),
       },
       options: {
         authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
