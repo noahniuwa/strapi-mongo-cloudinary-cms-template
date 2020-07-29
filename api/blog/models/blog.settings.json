@@ -28,17 +28,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "image2": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
     }
   }
 }
