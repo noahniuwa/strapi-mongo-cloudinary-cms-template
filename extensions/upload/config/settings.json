@@ -1,0 +1,8 @@
+{  
+  "provider": "cloudinary",  
+  "providerOptions": {
+    "cloud_name": "finnexus",
+    "api_key": "759243951556468",
+    "api_secret": "boL08YFzeeVOYHnjz17ykuKMGHs"  
+  }
+}
